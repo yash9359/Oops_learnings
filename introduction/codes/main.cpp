@@ -66,16 +66,19 @@ public:
     }
 };
 
-class a{
+class a
+{
     // int b,c,d;
     // C++ mein har object ka unique address hona chahiye. Agar empty object ka size 0 hota, to multiple objects ka same address ho sakta tha.
-    //Empty class = aisi class jisme koi data member aur member function nahi hota. sizeof(emptyClass) generally 1 byte hota hai.
-    
+    // Empty class = aisi class jisme koi data member aur member function nahi hota. sizeof(emptyClass) generally 1 byte hota hai.
 };
 
-class b{
-    int c;
+class b
+{
+
     char d;
+    int c;
+    char e;
     // padding concept
 };
 
@@ -83,31 +86,28 @@ int main()
 {
 
     // object of Student class
-    // Student s1;
+    Student s1;
 
-    // s1.setName("Yash");
-    // s1.setAge(21);
-    // s1.setRollNumber(2401);
-    // s1.setGrade("A");
+    s1.setName("Yash");
+    s1.setAge(21);
+    s1.setRollNumber(2401);
+    s1.setGrade("A");
 
-    // Student s2;
+    Student s2;
 
-    // s2.setName("Honey");
-    // s2.setAge(22);
-    // s2.setRollNumber(2400);
-    // s2.setGrade("B");
+    s2.setName("Honey");
+    s2.setAge(22);
+    s2.setRollNumber(2400);
+    s2.setGrade("B");
 
-    // cout << s1.getName() << endl;
-    // cout << s1.getAge() << endl;
-    // cout << s1.getRollNumber() << endl;
-    // cout << s1.getGrade(123) << endl;
+    cout << s1.getName() << endl;
+    cout << s1.getAge() << endl;
+    cout << s1.getRollNumber() << endl;
+    cout << s1.getGrade(123) << endl;
 
-    
     a obj;
-    cout<<sizeof(obj)<<" "<<endl;
+    cout << sizeof(obj) << " " << endl;
 
     b obj1;
-    cout<<sizeof(obj1)<<" ";
-
-
+    cout << sizeof(obj1) << " ";
 }
