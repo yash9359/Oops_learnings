@@ -1,4 +1,4 @@
-# 🚀 C++ OOPs — Complete Revision Notes
+# C++ OOPs — Complete Revision Notes
 
 > A structured, beginner-to-advanced collection of Object-Oriented Programming notes in C++ — written with real code examples, diagrams, analogies, and interview-focused explanations. Perfect for quick revision before interviews or exams.
 
@@ -17,41 +17,41 @@ This repo is a personal knowledge base covering **every core OOPs concept in C++
 ### 🏗️ Fundamentals — Classes & Objects
 
 
-| # | Topic                                                                                          | Description                                                              |
-| - | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| 1 | Class & Object Basics | Classes, objects, encapsulation intro, getters/setters, empty class size |
-| 2 | Memory Padding & Alignment | Struct/class padding rules, alignment, byte-level memory diagrams |
-| 3 | Pointers & Memory Allocation | Pointers, `->` operator, static vs dynamic memory allocation |
-| 4 | Stack vs Heap Memory | Deep dive into memory segments, stack overflow, memory leaks |
+| # | Topic                        | Description                                                              |
+| - | ---------------------------- | ------------------------------------------------------------------------ |
+| 1 | Class & Object Basics        | Classes, objects, encapsulation intro, getters/setters, empty class size |
+| 2 | Memory Padding & Alignment   | Struct/class padding rules, alignment, byte-level memory diagrams        |
+| 3 | Pointers & Memory Allocation | Pointers,`->` operator, static vs dynamic memory allocation              |
+| 4 | Stack vs Heap Memory         | Deep dive into memory segments, stack overflow, memory leaks             |
 
 ### 🏛️ Core OOP Building Blocks
 
 
-| # | Topic                                                                                       | Description                                                                      |
-| - | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| 5 | Constructors | Default, parameterized constructors, `this` pointer, constructor overloading |
-| 6 | Copy Constructor | Initializer lists, inline functions, shallow vs deep copy, `&` reference necessity |
-| 7 | Destructors | Destructor basics, dynamic memory cleanup, construction/destruction order |
-| 8 | Static Data Members | Shared class-level data, declaration vs definition |
-| 9 | Static Functions & `const` | Static member functions, `const` variables/functions/objects/pointers |
+| # | Topic                     | Description                                                                       |
+| - | ------------------------- | --------------------------------------------------------------------------------- |
+| 5 | Constructors              | Default, parameterized constructors,`this` pointer, constructor overloading       |
+| 6 | Copy Constructor          | Initializer lists, inline functions, shallow vs deep copy,`&` reference necessity |
+| 7 | Destructors               | Destructor basics, dynamic memory cleanup, construction/destruction order         |
+| 8 | Static Data Members       | Shared class-level data, declaration vs definition                                |
+| 9 | Static Functions &`const` | Static member functions,`const` variables/functions/objects/pointers              |
 
 ### 🔒 The Four Pillars of OOP
 
 
-| #  | Topic                                                                                              | Description                                                                       |
-| -- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 10 | Encapsulation & Abstraction | Data hiding, controlled access, hiding complexity, key differences |
-| 11 | Inheritance & Access Modifiers | Public/protected/private access, full inheritance combination matrix |
-| 12 | Types of Inheritance | Single, Multilevel, Multiple, Hierarchical, Hybrid, Multipath (Diamond Problem) |
-| 13 | Polymorphism | Function/operator overloading, virtual functions, pure virtual & abstract classes |
+| #  | Topic                          | Description                                                                       |
+| -- | ------------------------------ | --------------------------------------------------------------------------------- |
+| 10 | Encapsulation & Abstraction    | Data hiding, controlled access, hiding complexity, key differences                |
+| 11 | Inheritance & Access Modifiers | Public/protected/private access, full inheritance combination matrix              |
+| 12 | Types of Inheritance           | Single, Multilevel, Multiple, Hierarchical, Hybrid, Multipath (Diamond Problem)   |
+| 13 | Polymorphism                   | Function/operator overloading, virtual functions, pure virtual & abstract classes |
 
 ### ⚠️ Error & Resource Management
 
 
-| #  | Topic                                                                        | Description                                                            |
-| -- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| #  | Topic              | Description                                                            |
+| -- | ------------------ | ---------------------------------------------------------------------- |
 | 14 | Exception Handling | `try`/`catch`/`throw`, custom exceptions, standard exception hierarchy |
-| 15 | 📁 File Handling                                                             | 🚧*Coming soon — in progress*                                         |
+| 15 | 📁 File Handling   | 🚧*Coming soon — in progress*                                         |
 
 ---
 
@@ -63,15 +63,16 @@ If you're going through this repo top-to-bottom for the first time, follow this 
 
 Open the relevant folder to read its Markdown notes or view its C++ examples.
 
-| Chapter | Notes folder | Code folder |
-| --- | --- | --- |
-| 01. Introduction | [Open notes](./1.introduction/notes/) | [Open code](./1.introduction/codes/) |
-| 02. Constructors and Destructors | [Open notes](./2.ConstructorAndDestructor/Notes/) | [Open code](./2.ConstructorAndDestructor/Codes/) |
+
+| Chapter                                    | Notes folder                                                           | Code folder                                                           |
+| ------------------------------------------ | ---------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| 01. Introduction                           | [Open notes](./1.introduction/notes/)                                  | [Open code](./1.introduction/codes/)                                  |
+| 02. Constructors and Destructors           | [Open notes](./2.ConstructorAndDestructor/Notes/)                      | [Open code](./2.ConstructorAndDestructor/Codes/)                      |
 | 03. Static, Encapsulation, and Abstraction | [Open notes](./3.Static_DataMember_And_Functions_Encapsulation/notes/) | [Open code](./3.Static_DataMember_And_Functions_Encapsulation/codes/) |
-| 04. Inheritance | [Open notes](./4.Inheritance/notes/) | [Open code](./4.Inheritance/codes/) |
-| 05. Polymorphism | [Open notes](./5.Polymorphism/notes/) | [Open code](./5.Polymorphism/codes/) |
-| 06. Exception Handling | [Open notes](./6.Exception_Handling/notes/) | [Open code](./6.Exception_Handling/codes/) |
-| 07. File Handling | Coming soon | Coming soon |
+| 04. Inheritance                            | [Open notes](./4.Inheritance/notes/)                                   | [Open code](./4.Inheritance/codes/)                                   |
+| 05. Polymorphism                           | [Open notes](./5.Polymorphism/notes/)                                  | [Open code](./5.Polymorphism/codes/)                                  |
+| 06. Exception Handling                     | [Open notes](./6.Exception_Handling/notes/)                            | [Open code](./6.Exception_Handling/codes/)                            |
+| 07. File Handling                          | Coming soon                                                            | Coming soon                                                           |
 
 ```
 Class/Object Basics
