@@ -19,38 +19,38 @@ This repo is a personal knowledge base covering **every core OOPs concept in C++
 
 | # | Topic                                                                                          | Description                                                              |
 | - | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| 1 | [Class & Object Basics](https://claude.ai/chat/cpp-class-object-notes.md)                      | Classes, objects, encapsulation intro, getters/setters, empty class size |
-| 2 | [Memory Padding & Alignment](https://claude.ai/chat/cpp-padding-alignment-notes.md)            | Struct/class padding rules, alignment, byte-level memory diagrams        |
-| 3 | [Pointers & Memory Allocation](https://claude.ai/chat/cpp-pointers-memory-allocation-notes.md) | Pointers,`->`operator, static vs dynamic memory allocation               |
-| 4 | [Stack vs Heap Memory](https://claude.ai/chat/cpp-stack-heap-memory-notes.md)                  | Deep dive into memory segments, stack overflow, memory leaks             |
+| 1 | [Class & Object Basics](./1.introduction/notes/notes1_main.md)                      | Classes, objects, encapsulation intro, getters/setters, empty class size |
+| 2 | [Memory Padding & Alignment](./1.introduction/notes/notes2_padding.md)            | Struct/class padding rules, alignment, byte-level memory diagrams        |
+| 3 | [Pointers & Memory Allocation](./1.introduction/notes/notes3_staticVSDynamic.md) | Pointers,`->`operator, static vs dynamic memory allocation               |
+| 4 | [Stack vs Heap Memory](./1.introduction/notes/notes3_staticVSDynamic.md)                  | Deep dive into memory segments, stack overflow, memory leaks             |
 
 ### 🏛️ Core OOP Building Blocks
 
 
 | # | Topic                                                                                       | Description                                                                      |
 | - | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| 5 | [Constructors](https://claude.ai/chat/cpp-constructors-notes.md)                            | Default, parameterized constructors,`this`pointer, constructor overloading       |
-| 6 | [Copy Constructor](https://claude.ai/chat/cpp-copy-constructor-notes.md)                    | Initializer lists, inline functions, shallow vs deep copy,`&`reference necessity |
-| 7 | [Destructors](https://claude.ai/chat/cpp-destructor-notes.md)                               | Destructor basics, dynamic memory cleanup, construction/destruction order        |
-| 8 | [Static Data Members](https://claude.ai/chat/cpp-static-data-members-notes.md)              | Shared class-level data, declaration vs definition                               |
-| 9 | [Static Functions &`const`](https://claude.ai/chat/cpp-static-functions-and-const-notes.md) | Static member functions,`const`variables/functions/objects/pointers              |
+| 5 | [Constructors](./2.ConstructorAndDestructor/Notes/1.notes_Counstructer.md)                            | Default, parameterized constructors,`this`pointer, constructor overloading       |
+| 6 | [Copy Constructor](./2.ConstructorAndDestructor/Notes/2.notes_InlineAndCopyConstructer.md)                    | Initializer lists, inline functions, shallow vs deep copy,`&`reference necessity |
+| 7 | [Destructors](./2.ConstructorAndDestructor/Notes/3.notes_Destructor.md)                               | Destructor basics, dynamic memory cleanup, construction/destruction order        |
+| 8 | [Static Data Members](./3.Static_DataMember_And_Functions_Encapsulation/notes/1.notes_static_data_member.md)              | Shared class-level data, declaration vs definition                               |
+| 9 | [Static Functions &`const`](./3.Static_DataMember_And_Functions_Encapsulation/notes/2.notes_static_fn.md) | Static member functions,`const`variables/functions/objects/pointers              |
 
 ### 🔒 The Four Pillars of OOP
 
 
 | #  | Topic                                                                                              | Description                                                                       |
 | -- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 10 | [Encapsulation & Abstraction](https://claude.ai/chat/cpp-encapsulation-abstraction-notes.md)       | Data hiding, controlled access, hiding complexity, key differences                |
-| 11 | [Inheritance & Access Modifiers](https://claude.ai/chat/cpp-inheritance-access-modifiers-notes.md) | Public/protected/private access, full inheritance combination matrix              |
-| 12 | [Types of Inheritance](https://claude.ai/chat/cpp-inheritance-types-complete-notes.md)             | Single, Multilevel, Multiple, Hierarchical, Hybrid, Multipath (Diamond Problem)   |
-| 13 | [Polymorphism](https://claude.ai/chat/cpp-polymorphism-notes.md)                                   | Function/operator overloading, virtual functions, pure virtual & abstract classes |
+| 10 | [Encapsulation & Abstraction](./3.Static_DataMember_And_Functions_Encapsulation/notes/3%20and%204%20EncapsusulationAndAbstarction.md)       | Data hiding, controlled access, hiding complexity, key differences                |
+| 11 | [Inheritance & Access Modifiers](./4.Inheritance/notes/1.notes_Inheritance.md) | Public/protected/private access, full inheritance combination matrix              |
+| 12 | [Types of Inheritance](./4.Inheritance/notes/2.notes_TypesOfInheritance.md)             | Single, Multilevel, Multiple, Hierarchical, Hybrid, Multipath (Diamond Problem)   |
+| 13 | [Polymorphism](./5.Polymorphism/notes/1.notes_Polymorphism.md)                                   | Function/operator overloading, virtual functions, pure virtual & abstract classes |
 
 ### ⚠️ Error & Resource Management
 
 
 | #  | Topic                                                                        | Description                                                            |
 | -- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| 14 | [Exception Handling](https://claude.ai/chat/cpp-exception-handling-notes.md) | `try`/`catch`/`throw`, custom exceptions, standard exception hierarchy |
+| 14 | [Exception Handling](./6.Exception_Handling/notes/notes_exceptionHandling.md) | `try`/`catch`/`throw`, custom exceptions, standard exception hierarchy |
 | 15 | 📁 File Handling                                                             | 🚧*Coming soon — in progress*                                         |
 
 ---
