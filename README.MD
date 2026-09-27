@@ -19,38 +19,38 @@ This repo is a personal knowledge base covering **every core OOPs concept in C++
 
 | # | Topic                                                                                          | Description                                                              |
 | - | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| 1 | [Class & Object Basics](https://claude.ai/chat/cpp-class-object-notes.md)                      | Classes, objects, encapsulation intro, getters/setters, empty class size |
-| 2 | [Memory Padding & Alignment](https://claude.ai/chat/cpp-padding-alignment-notes.md)            | Struct/class padding rules, alignment, byte-level memory diagrams        |
-| 3 | [Pointers & Memory Allocation](https://claude.ai/chat/cpp-pointers-memory-allocation-notes.md) | Pointers,`->`operator, static vs dynamic memory allocation               |
-| 4 | [Stack vs Heap Memory](https://claude.ai/chat/cpp-stack-heap-memory-notes.md)                  | Deep dive into memory segments, stack overflow, memory leaks             |
+| 1 | Class & Object Basics | Classes, objects, encapsulation intro, getters/setters, empty class size |
+| 2 | Memory Padding & Alignment | Struct/class padding rules, alignment, byte-level memory diagrams |
+| 3 | Pointers & Memory Allocation | Pointers, `->` operator, static vs dynamic memory allocation |
+| 4 | Stack vs Heap Memory | Deep dive into memory segments, stack overflow, memory leaks |
 
 ### 🏛️ Core OOP Building Blocks
 
 
 | # | Topic                                                                                       | Description                                                                      |
 | - | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| 5 | [Constructors](https://claude.ai/chat/cpp-constructors-notes.md)                            | Default, parameterized constructors,`this`pointer, constructor overloading       |
-| 6 | [Copy Constructor](https://claude.ai/chat/cpp-copy-constructor-notes.md)                    | Initializer lists, inline functions, shallow vs deep copy,`&`reference necessity |
-| 7 | [Destructors](https://claude.ai/chat/cpp-destructor-notes.md)                               | Destructor basics, dynamic memory cleanup, construction/destruction order        |
-| 8 | [Static Data Members](https://claude.ai/chat/cpp-static-data-members-notes.md)              | Shared class-level data, declaration vs definition                               |
-| 9 | [Static Functions &`const`](https://claude.ai/chat/cpp-static-functions-and-const-notes.md) | Static member functions,`const`variables/functions/objects/pointers              |
+| 5 | Constructors | Default, parameterized constructors, `this` pointer, constructor overloading |
+| 6 | Copy Constructor | Initializer lists, inline functions, shallow vs deep copy, `&` reference necessity |
+| 7 | Destructors | Destructor basics, dynamic memory cleanup, construction/destruction order |
+| 8 | Static Data Members | Shared class-level data, declaration vs definition |
+| 9 | Static Functions & `const` | Static member functions, `const` variables/functions/objects/pointers |
 
 ### 🔒 The Four Pillars of OOP
 
 
 | #  | Topic                                                                                              | Description                                                                       |
 | -- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 10 | [Encapsulation & Abstraction](https://claude.ai/chat/cpp-encapsulation-abstraction-notes.md)       | Data hiding, controlled access, hiding complexity, key differences                |
-| 11 | [Inheritance & Access Modifiers](https://claude.ai/chat/cpp-inheritance-access-modifiers-notes.md) | Public/protected/private access, full inheritance combination matrix              |
-| 12 | [Types of Inheritance](https://claude.ai/chat/cpp-inheritance-types-complete-notes.md)             | Single, Multilevel, Multiple, Hierarchical, Hybrid, Multipath (Diamond Problem)   |
-| 13 | [Polymorphism](https://claude.ai/chat/cpp-polymorphism-notes.md)                                   | Function/operator overloading, virtual functions, pure virtual & abstract classes |
+| 10 | Encapsulation & Abstraction | Data hiding, controlled access, hiding complexity, key differences |
+| 11 | Inheritance & Access Modifiers | Public/protected/private access, full inheritance combination matrix |
+| 12 | Types of Inheritance | Single, Multilevel, Multiple, Hierarchical, Hybrid, Multipath (Diamond Problem) |
+| 13 | Polymorphism | Function/operator overloading, virtual functions, pure virtual & abstract classes |
 
 ### ⚠️ Error & Resource Management
 
 
 | #  | Topic                                                                        | Description                                                            |
 | -- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| 14 | [Exception Handling](https://claude.ai/chat/cpp-exception-handling-notes.md) | `try`/`catch`/`throw`, custom exceptions, standard exception hierarchy |
+| 14 | Exception Handling | `try`/`catch`/`throw`, custom exceptions, standard exception hierarchy |
 | 15 | 📁 File Handling                                                             | 🚧*Coming soon — in progress*                                         |
 
 ---
@@ -58,6 +58,20 @@ This repo is a personal knowledge base covering **every core OOPs concept in C++
 ## 🗺️ Suggested Reading Order
 
 If you're going through this repo top-to-bottom for the first time, follow this order for the smoothest learning curve:
+
+### Folder-wise Notes
+
+Open the relevant folder to read its Markdown notes or view its C++ examples.
+
+| Chapter | Notes folder | Code folder |
+| --- | --- | --- |
+| 01. Introduction | [Open notes](./1.introduction/notes/) | [Open code](./1.introduction/codes/) |
+| 02. Constructors and Destructors | [Open notes](./2.ConstructorAndDestructor/Notes/) | [Open code](./2.ConstructorAndDestructor/Codes/) |
+| 03. Static, Encapsulation, and Abstraction | [Open notes](./3.Static_DataMember_And_Functions_Encapsulation/notes/) | [Open code](./3.Static_DataMember_And_Functions_Encapsulation/codes/) |
+| 04. Inheritance | [Open notes](./4.Inheritance/notes/) | [Open code](./4.Inheritance/codes/) |
+| 05. Polymorphism | [Open notes](./5.Polymorphism/notes/) | [Open code](./5.Polymorphism/codes/) |
+| 06. Exception Handling | [Open notes](./6.Exception_Handling/notes/) | [Open code](./6.Exception_Handling/codes/) |
+| 07. File Handling | Coming soon | Coming soon |
 
 ```
 Class/Object Basics
