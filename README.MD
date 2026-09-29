@@ -67,7 +67,7 @@ Open the relevant folder to read its Markdown notes or view its C++ examples.
 | 04. Inheritance | [Open notes](./4.Inheritance/notes/) | [Open code](./4.Inheritance/codes/) |
 | 05. Polymorphism | [Open notes](./5.Polymorphism/notes/) | [Open code](./5.Polymorphism/codes/) |
 | 06. Exception Handling | [Open notes](./6.Exception_Handling/notes/) | [Open code](./6.Exception_Handling/codes/) |
-| 07. File Handling | [Open notes](./7.File_Handling/notes/) | [Open code](./7.File_Handling/codes/) |
+| 07. File Handling | [Open notes](./7.FileHandling/notes/1.notes_FileHandling.md) | [Open code](./7.FileHandling/codes/File_Handling.cpp) |
 
 ---
 
