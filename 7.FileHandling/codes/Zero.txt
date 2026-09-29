@@ -1,0 +1,4 @@
+Original Data
+8 9 9 8 9 
+Sorted data
+8 8 9 9 9 
